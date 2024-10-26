@@ -4,11 +4,11 @@ This project implements an **Inventory Management System** using a Binary Search
 
 ## 🚀 Features and Requirements
 
-The project consists of four main tasks, each addressing crucial aspects of warehouse inventory management.
+The project consists of four main tasks, each addressing crucial aspects of warehouse inventory management using BST based on AVL-Tree conscept to keep the tree in binary search tree format with Balance Factor = [-1,0,1].
 
 ---
 
-### 🧩 Task 1: Basic Inventory Operations.
+### 🧩 Part 1: Basic Inventory Operations.
 
 Each node in the BST represents an item with attributes including:
 - **item_id**: Unique integer (key for BST).
@@ -25,7 +25,7 @@ Each node in the BST represents an item with attributes including:
 
 ---
 
-### 📊 Task 2: Stock Management Operations.
+### 📊 Part 2: Stock Management Operations.
 
 1. **Check Stock Availability**: Verifies if an item is in stock and returns its quantity.
 2. **Low Stock Alert**: Lists items with fewer than 3 units, enabling proactive restocking.
@@ -33,7 +33,7 @@ Each node in the BST represents an item with attributes including:
 
 ---
 
-### 💰 Task 3: Price and Range Queries.
+### 💰 Part 3: Price and Range Queries.
 
 1. **Find Items within a Price Range**: Returns items within a specified price range `[min_price, max_price]`.
 2. **Find the Cheapest Item**: Finds and returns the item with the lowest price.
@@ -41,7 +41,7 @@ Each node in the BST represents an item with attributes including:
 
 ---
 
-### 📂 Task 4: Bulk Insertions and Updates from CSV.
+### 📂 Part 4: Bulk Insertions and Updates from CSV.
 
 The system supports bulk data operations from a CSV file, with each entry including item information. 
 - **Existing Items**: If the item exists, updates attributes if values differ.
